@@ -11,7 +11,7 @@ Array.prototype.increaseAll = function(factor=1) {
   return arr;
 }
 
-//extracts the highest numeric value in an array
+//extracts the highest numeric value in an array 
 Array.prototype.getHighest = function() {
   let arr = this
   let h1 = arr[0],
@@ -31,5 +31,5 @@ Array.prototype.getHighest = function() {
       h2 = arr[n]
     }
   }
-  return `${h1}`
+  return h1;
 }
